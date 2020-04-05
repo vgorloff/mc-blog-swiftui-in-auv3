@@ -11,15 +11,13 @@
 		8042BF7F2439204C00D1477E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042BF7E2439204C00D1477E /* ContentView.swift */; };
 		8042BF812439204D00D1477E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8042BF802439204D00D1477E /* Assets.xcassets */; };
 		8042BF872439204D00D1477E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8042BF852439204D00D1477E /* Main.storyboard */; };
-		8042BF982439220900D1477E /* AttenuatorAUAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042BF972439220900D1477E /* AttenuatorAUAudioUnit.m */; };
-		8042BF9C2439220900D1477E /* DSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 8042BF9B2439220900D1477E /* DSPKernel.hpp */; };
-		8042BF9E2439220900D1477E /* DSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8042BF9D2439220900D1477E /* DSPKernel.mm */; };
-		8042BFA02439220900D1477E /* BufferedAudioBus.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 8042BF9F2439220900D1477E /* BufferedAudioBus.hpp */; };
-		8042BFA32439220900D1477E /* AttenuatorAUDSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 8042BFA22439220900D1477E /* AttenuatorAUDSPKernel.hpp */; };
-		8042BFA52439220900D1477E /* AttenuatorAUDSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFA42439220900D1477E /* AttenuatorAUDSPKernel.mm */; };
 		8042BFA82439220900D1477E /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFA72439220900D1477E /* AudioUnitViewController.swift */; };
-		8042BFAC2439220900D1477E /* AudioUnitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8042BFAA2439220900D1477E /* AudioUnitViewController.xib */; };
 		8042BFB12439220900D1477E /* AttenuatorAU.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8042BF932439220900D1477E /* AttenuatorAU.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8042BFB92439498E00D1477E /* MainUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFB82439498E00D1477E /* MainUI.swift */; };
+		8042BFBB24394A4A00D1477E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFBA24394A4A00D1477E /* MainView.swift */; };
+		8042BFBD24394B8900D1477E /* AttenuatorParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFBC24394B8900D1477E /* AttenuatorParameter.swift */; };
+		8042BFBF24394EB100D1477E /* AttenuatorAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFBE24394EB100D1477E /* AttenuatorAudioUnit.swift */; };
+		8042BFC52439C5D600D1477E /* AttenuatorDSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFC42439C5D600D1477E /* AttenuatorDSP.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,19 +53,16 @@
 		8042BF882439204D00D1477E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8042BF892439204D00D1477E /* Attenuator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Attenuator.entitlements; sourceTree = "<group>"; };
 		8042BF932439220900D1477E /* AttenuatorAU.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AttenuatorAU.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		8042BF962439220900D1477E /* AttenuatorAUAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttenuatorAUAudioUnit.h; sourceTree = "<group>"; };
-		8042BF972439220900D1477E /* AttenuatorAUAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttenuatorAUAudioUnit.m; sourceTree = "<group>"; };
-		8042BF9B2439220900D1477E /* DSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DSPKernel.hpp; sourceTree = "<group>"; };
-		8042BF9D2439220900D1477E /* DSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DSPKernel.mm; sourceTree = "<group>"; };
-		8042BF9F2439220900D1477E /* BufferedAudioBus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BufferedAudioBus.hpp; sourceTree = "<group>"; };
-		8042BFA12439220900D1477E /* AttenuatorAUDSPKernelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttenuatorAUDSPKernelAdapter.h; sourceTree = "<group>"; };
-		8042BFA22439220900D1477E /* AttenuatorAUDSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AttenuatorAUDSPKernel.hpp; sourceTree = "<group>"; };
-		8042BFA42439220900D1477E /* AttenuatorAUDSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AttenuatorAUDSPKernel.mm; sourceTree = "<group>"; };
 		8042BFA72439220900D1477E /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
 		8042BFA92439220900D1477E /* AttenuatorAU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AttenuatorAU-Bridging-Header.h"; sourceTree = "<group>"; };
-		8042BFAB2439220900D1477E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AudioUnitViewController.xib; sourceTree = "<group>"; };
 		8042BFAD2439220900D1477E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8042BFAE2439220900D1477E /* AttenuatorAU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AttenuatorAU.entitlements; sourceTree = "<group>"; };
+		8042BFB82439498E00D1477E /* MainUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainUI.swift; sourceTree = "<group>"; };
+		8042BFBA24394A4A00D1477E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8042BFBC24394B8900D1477E /* AttenuatorParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenuatorParameter.swift; sourceTree = "<group>"; };
+		8042BFBE24394EB100D1477E /* AttenuatorAudioUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenuatorAudioUnit.swift; sourceTree = "<group>"; };
+		8042BFC02439531900D1477E /* AttenuatorDSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttenuatorDSP.h; sourceTree = "<group>"; };
+		8042BFC42439C5D600D1477E /* AttenuatorDSP.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AttenuatorDSP.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				8042BFA92439220900D1477E /* AttenuatorAU-Bridging-Header.h */,
-				8042BFAA2439220900D1477E /* AudioUnitViewController.xib */,
 				8042BFAD2439220900D1477E /* Info.plist */,
 				8042BFAE2439220900D1477E /* AttenuatorAU.entitlements */,
 				8042BF952439220900D1477E /* Audio Unit */,
@@ -136,8 +130,8 @@
 		8042BF952439220900D1477E /* Audio Unit */ = {
 			isa = PBXGroup;
 			children = (
-				8042BF962439220900D1477E /* AttenuatorAUAudioUnit.h */,
-				8042BF972439220900D1477E /* AttenuatorAUAudioUnit.m */,
+				8042BFBE24394EB100D1477E /* AttenuatorAudioUnit.swift */,
+				8042BFBC24394B8900D1477E /* AttenuatorParameter.swift */,
 			);
 			path = "Audio Unit";
 			sourceTree = "<group>";
@@ -145,28 +139,18 @@
 		8042BF992439220900D1477E /* DSP */ = {
 			isa = PBXGroup;
 			children = (
-				8042BFA22439220900D1477E /* AttenuatorAUDSPKernel.hpp */,
-				8042BFA42439220900D1477E /* AttenuatorAUDSPKernel.mm */,
-				8042BF9A2439220900D1477E /* Helpers */,
+				8042BFC02439531900D1477E /* AttenuatorDSP.h */,
+				8042BFC42439C5D600D1477E /* AttenuatorDSP.mm */,
 			);
 			path = DSP;
-			sourceTree = "<group>";
-		};
-		8042BF9A2439220900D1477E /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				8042BF9B2439220900D1477E /* DSPKernel.hpp */,
-				8042BF9D2439220900D1477E /* DSPKernel.mm */,
-				8042BF9F2439220900D1477E /* BufferedAudioBus.hpp */,
-				8042BFA12439220900D1477E /* AttenuatorAUDSPKernelAdapter.h */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		8042BFA62439220900D1477E /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				8042BFA72439220900D1477E /* AudioUnitViewController.swift */,
+				8042BFB82439498E00D1477E /* MainUI.swift */,
+				8042BFBA24394A4A00D1477E /* MainView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -261,10 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8042BFA32439220900D1477E /* AttenuatorAUDSPKernel.hpp in Resources */,
-				8042BFAC2439220900D1477E /* AudioUnitViewController.xib in Resources */,
-				8042BF9C2439220900D1477E /* DSPKernel.hpp in Resources */,
-				8042BFA02439220900D1477E /* BufferedAudioBus.hpp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8042BF9E2439220900D1477E /* DSPKernel.mm in Sources */,
 				8042BFA82439220900D1477E /* AudioUnitViewController.swift in Sources */,
-				8042BF982439220900D1477E /* AttenuatorAUAudioUnit.m in Sources */,
-				8042BFA52439220900D1477E /* AttenuatorAUDSPKernel.mm in Sources */,
+				8042BFBF24394EB100D1477E /* AttenuatorAudioUnit.swift in Sources */,
+				8042BFB92439498E00D1477E /* MainUI.swift in Sources */,
+				8042BFC52439C5D600D1477E /* AttenuatorDSP.mm in Sources */,
+				8042BFBB24394A4A00D1477E /* MainView.swift in Sources */,
+				8042BFBD24394B8900D1477E /* AttenuatorParameter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +290,6 @@
 				8042BF862439204D00D1477E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8042BFAA2439220900D1477E /* AudioUnitViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8042BFAB2439220900D1477E /* Base */,
-			);
-			name = AudioUnitViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

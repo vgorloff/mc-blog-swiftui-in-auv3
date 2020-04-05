@@ -6,5 +6,4 @@
 //  Copyright © 2020 Vlad Gorlov. All rights reserved.
 //
 
-#import "AttenuatorAUDSPKernelAdapter.h"
-#import "AttenuatorAUAudioUnit.h"
+#import "AttenuatorDSP.h"
