@@ -16,16 +16,9 @@ public class AudioUnitViewController: AUViewController, AUAudioUnitFactory {
    private var isConfigured = false
    
    public override func loadView() {
+      auView.needsLayout = true
+      auView.layoutSubtreeIfNeeded()
       view = auView
-      preferredContentSize = NSSize(width: 200, height: 150)
-   }
-   
-   public override var preferredMaximumSize: NSSize {
-      return NSSize(width: 800, height: 600)
-   }
-   
-   public override var preferredMinimumSize: NSSize {
-      return NSSize(width: 200, height: 150)
    }
    
    public override func viewDidLoad() {
@@ -64,6 +57,9 @@ public class AudioUnitViewController: AUViewController, AUAudioUnitFactory {
          if let token = self?.parameterObserverToken {
             self?.audioUnit?.parameterGain?.setValue(value, originator: token)
          }
+      }
+      auView.onRender = { [weak self] in
+         self?.audioUnit?.maximumMagnitude ?? 0
       }
    }
 }

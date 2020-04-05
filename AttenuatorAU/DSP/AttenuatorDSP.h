@@ -17,6 +17,9 @@
 @property (nonatomic) bool isBypassed;
 @property (nonatomic) uint numberOfChannels;
 
+// Used by VU meter on UI side.
+@property (nonatomic) float maximumMagnitude;
+
 -(void)process:(AUAudioFrameCount)frameCount inBufferListPtr:(AudioBufferList*)inBufferListPtr outBufferListPtr:(AudioBufferList*)outBufferListPtr;
 
 @end

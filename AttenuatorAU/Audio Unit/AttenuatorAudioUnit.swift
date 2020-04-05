@@ -153,6 +153,12 @@ class AttenuatorAudioUnit: AUAudioUnit {
       }
    }
    
+   // MARK: -
+   
+   var maximumMagnitude: Float {
+      return dsp.maximumMagnitude
+   }
+   
    // MARK: - Private
    
    private func setUpParametersTree() -> AUParameterTree {

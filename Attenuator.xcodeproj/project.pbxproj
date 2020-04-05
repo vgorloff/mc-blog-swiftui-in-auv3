@@ -18,6 +18,8 @@
 		8042BFBD24394B8900D1477E /* AttenuatorParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFBC24394B8900D1477E /* AttenuatorParameter.swift */; };
 		8042BFBF24394EB100D1477E /* AttenuatorAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFBE24394EB100D1477E /* AttenuatorAudioUnit.swift */; };
 		8042BFC52439C5D600D1477E /* AttenuatorDSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFC42439C5D600D1477E /* AttenuatorDSP.mm */; };
+		8042BFC7243A0CAC00D1477E /* VUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFC6243A0CAC00D1477E /* VUView.swift */; };
+		8042BFC9243A144E00D1477E /* VUView.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8042BFC8243A144E00D1477E /* VUView.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		8042BFBE24394EB100D1477E /* AttenuatorAudioUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenuatorAudioUnit.swift; sourceTree = "<group>"; };
 		8042BFC02439531900D1477E /* AttenuatorDSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttenuatorDSP.h; sourceTree = "<group>"; };
 		8042BFC42439C5D600D1477E /* AttenuatorDSP.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AttenuatorDSP.mm; sourceTree = "<group>"; };
+		8042BFC6243A0CAC00D1477E /* VUView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VUView.swift; sourceTree = "<group>"; };
+		8042BFC8243A144E00D1477E /* VUView.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = VUView.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 				8042BFA72439220900D1477E /* AudioUnitViewController.swift */,
 				8042BFB82439498E00D1477E /* MainUI.swift */,
 				8042BFBA24394A4A00D1477E /* MainView.swift */,
+				8042BFC8243A144E00D1477E /* VUView.metal */,
+				8042BFC6243A0CAC00D1477E /* VUView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -265,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8042BFA82439220900D1477E /* AudioUnitViewController.swift in Sources */,
+				8042BFC7243A0CAC00D1477E /* VUView.swift in Sources */,
 				8042BFBF24394EB100D1477E /* AttenuatorAudioUnit.swift in Sources */,
+				8042BFC9243A144E00D1477E /* VUView.metal in Sources */,
 				8042BFB92439498E00D1477E /* MainUI.swift in Sources */,
 				8042BFC52439C5D600D1477E /* AttenuatorDSP.mm in Sources */,
 				8042BFBB24394A4A00D1477E /* MainView.swift in Sources */,
